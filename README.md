@@ -1,2 +1,20 @@
 # Flipkart-Manual-Testing-Project
-Manual Testing Project for Flipkart – Includes Test Scenarios, Test Cases, Bug Reports, Test Summary, and Screenshots. Tested across multiple browsers &amp; devices. Perfect fresher QA portfolio project.
+
+Flipkart-Manual-Testing-Project/
+│
+├── TestScenarios/
+│ └── Flipkart_Test_Scenarios.xlsx
+│
+├── TestCases/
+│ └── Flipkart_Test_Cases.xlsx
+│
+├── BugReports/
+│ └── Flipkart_Bug_Report.xlsx
+│
+├── TestSummary/
+│ └── Flipkart_Test_Summary_Report.pdf
+│
+├── Screenshots/
+│ └── (evidence images of passed test cases & non-reproducible bugs)
+│
+└── README.md
