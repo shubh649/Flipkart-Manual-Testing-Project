@@ -1,5 +1,4 @@
 # Flipkart-Manual-Testing-Project
-
 This project showcases complete manual testing for Flipkart’s core e-commerce functionalities including Login, Search, Add to Cart, and Cart Quantity Update.  
 It includes detailed Test Scenarios, Test Cases, Bug Reports, Execution Results, and Screenshots.  
 The project is designed as a professional QA portfolio piece demonstrating real-world testing practices.
