@@ -1,0 +1,10 @@
+﻿Flipkart Bug Report,,,,,,,,,
+,,,,,,,,,
+Bug ID,Module,Bug Title,Severity,priority,Step to Reproduce,Expected Result,Actual Result,Status,Screenshot
+BUG_FK_SEARCH_001,Search,Irrelevant results for “Samsung S24”,Medium,High,"1. Open Flipkart
+2. Search Samsung S24
+3. Check first 10 results",Only Samsung S24 models should appear,"Tested on Chrome, Edge, Firefox on Laptop and Mobile — all results were relevant. No issue observed.",Not Reproducible,
+BUG_FK_CART_001,Add to Cart,Add to Cart button missing on some listings,High,High,"1. Search any phone
+2. Open multiple product pages",“Add to Cart” button should appear,Button visible on all tested products across browsers & devices.,Not Reproducible,
+BUG_FK_CART_002,Cart,Total price not updating on quantity change,High,High,"1. Add product to cart
+2. Change quantity",Total = unit price × quantity,Price updated correctly on all devices & browsers.,Not Reproducible,

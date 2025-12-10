@@ -1,0 +1,26 @@
+﻿Flipcart Test Case,,,,,,,,,
+,,,,,,,,,
+Test Case ID,Module,Test Scenario,Precondition,Test Steps,Test Data,Expected Result ,Actal Result,Status,Priority
+TC_FK_LOGIN_001,Login,Verify login with valid mobile number and correct OTP,User has a registered mobile number and can receive OTP,"1. Open Flipkart
+2. Click Login
+3. Enter valid mobile number
+4. Request OTP
+5. Enter correct OTP
+6. Click Login","Mobile: 9876543210, OTP: Valid OTP",User logs in successfully and is redirected to homepage,User logs in successfully and is redirected to homepage,Pending,High
+TC_FK_LOGIN_002,Login,Verify login fails with invalid mobile number,Flipkart login page is open,"1. Open Flipkart
+2. Click Login
+3. Enter invalid number
+4. Click Request OTP",Mobile: 1234567890,System shows an error; OTP is not sent,System shows error; please enter valid emailID or valid mobile number,Pending,High
+TC_FK_SEARCH_001,Search,Validate search with valid product name (Samsung S24),User is on Homepage,"1. Open Flipkart
+2. Click Search
+3. Type ""Samsung S24""
+4. Press Enter",Search: Samsung S24,Relevant Samsung S24 products appear in results, Samsung S24 products appear in results,Pending,High
+TC_FK_CART_001,Add to Cart,Verify adding a valid product to cart,Product listings are visible,"1. Search for Samsung S24
+2. Open any product
+3. Click Add to Cart
+4. Open Cart page",Any Samsung S24 product,Product is added to cart with correct details,Product added to cart,Pending,High
+TC_FK_CART_002,Add to Cart,Validate price updates when quantity changes,At least one product exists in cart,"1. Open Cart page
+2. Increase quantity from 1 → 2
+3. Verify price update
+4. Decrease quantity to 1",Unit price shown on product,Total price = unit price × quantity,Total price = unit price × quantity,Pending,High
+,,,,,,,,,
