@@ -7,11 +7,11 @@ Bug Reports
 Test Summary Report (PDF)  
 Evidence Screenshots for all major flows  
 Cross-Browser Testing (Chrome, Edge, Firefox)  
-Mobile Testing (Android, DuckDuckGo, Chrome Mobile)
-Registration
-Login  
-Search 
-Add To Cart 
+Mobile Testing (Android, DuckDuckGo, Chrome Mobile).
+Registration.
+Login  .
+Search .
+Add To Cart. 
 Laptop: Windows 10  
 Chrome 120  
 Mozilla Firefox 121  
